@@ -20,19 +20,19 @@ const Header = () => {
                     <div className="collapse navbar-collapse flex-grow items-center bg-gray-100 md:bg-inherit shadow-lg md:shadow-inherit rounded-xl" id="headerNavBar">
                         <ul className="navbar-nav flex flex-col list-style-none w-full justify-center items-center gap-2 lg:gap-10 text-[#111827b3] text-lg font-bold">
                             <li className="nav-item p-2">
-                                <Link className={`${homeRoute === pathname ? 'text-[#111827] focus:text-[#111827]' : 'hover:text-[#111827] focus:text-[#111827]'}`} to="/">Home</Link>
+                                <Link className={`${homeRoute === pathname ? 'text-[#111827]' : 'hover-underline-animation hover:drop-shadow-lg hover:text-[#111827]'}`} to="/">Home</Link>
                             </li>
 
                             <li className="nav-item p-2">
-                                <Link className={`${aboutRoute === pathname ? 'text-[#111827] focus:text-[#111827]' : 'hover:text-[#111827] focus:text-[#111827]'}`} to="/about">About</Link>
+                                <Link className={`${aboutRoute === pathname ? 'text-[#111827]' : 'hover-underline-animation hover:drop-shadow-lg hover:text-[#111827]'}`} to="/about">About</Link>
                             </li>
 
                             <li className="nav-item p-2">
-                                <Link className={`${projectsRoute === pathname ? 'text-[#111827] focus:text-[#111827]' : 'hover:text-[#111827] focus:text-[#111827]'}`} to="/projects">Projects</Link>
+                                <Link className={`${projectsRoute === pathname ? 'text-[#111827]' : 'hover-underline-animation hover:drop-shadow-lg hover:text-[#111827]'}`} to="/projects">Projects</Link>
                             </li>
 
                             <li className="nav-item p-2">
-                                <Link className={`${contactRoute === pathname ? 'text-[#111827] focus:text-[#111827]' : 'hover:text-[#111827] focus:text-[#111827]'}`} to="/contact">Contact</Link>
+                                <Link className={`${contactRoute === pathname ? 'text-[#111827]' : 'hover-underline-animation hover:drop-shadow-lg hover:text-[#111827]'}`} to="/contact">Contact</Link>
                             </li>
                         </ul>
                     </div>
