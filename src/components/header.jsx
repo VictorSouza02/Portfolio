@@ -17,7 +17,7 @@ const Header = () => {
                         <img className="w-6" src="https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/three-horizontal-lines-outline-icon.svg" alt="Menu button" />
                     </button>
 
-                    <div className="collapse navbar-collapse flex-grow items-center bg-gray-100 md:bg-inherit shadow-lg md:shadow-inherit rounded-xl" id="headerNavBar">
+                    <div className="collapse navbar-collapse flex-grow items-center bg-gray-100 max-md:absolute max-md:top-12 max-md:left-[50%] max-md:translate-x-[-50%] w-[60%] md:bg-inherit shadow-lg md:shadow-inherit rounded-xl" id="headerNavBar">
                         <ul className="navbar-nav flex flex-col list-style-none w-full justify-center items-center gap-2 lg:gap-10 text-[#111827b3] text-lg font-bold">
                             <li className="nav-item p-2">
                                 <Link className={`${homeRoute === pathname ? 'text-[#111827]' : 'hover-underline-animation hover:drop-shadow-lg hover:text-[#111827]'}`} to="/">Home</Link>
