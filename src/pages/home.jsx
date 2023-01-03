@@ -24,7 +24,7 @@ const Home = () => {
                 <section className="w-full mt-6 flex flex-col items-center gap-8 max-w-[900px]">
                     <h2 className="text-3xl text-center sm:text-start md:self-start">Recent Projects</h2>
 
-                    <div className="grid grid-cols-1 gap-8 md:gap-6 md:grid-cols-3 w-full justify-center items-center">
+                    <div className="grid grid-cols-1 gap-8 md:gap-6 md:grid-cols-3 w-full">
                         <div className="w-[100%] aspect-[1/1.3] shadow-lg rounded-2xl">
 
                         </div>
