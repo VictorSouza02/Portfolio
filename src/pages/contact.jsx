@@ -5,7 +5,7 @@ const Contact = () => {
         <div className="w-[70%] mx-auto">
             <Header />
 
-            <main className="w-full hidden">
+            <main className="w-full">
                 <section>
                     <h1>Contact</h1>
                 </section>
