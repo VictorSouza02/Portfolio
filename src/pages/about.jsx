@@ -2,15 +2,9 @@ import Header from "../components/header";
 
 const About = () => {
     return (
-        <div className="w-[70%] mx-auto">
-            <Header />
-
-            <main className="w-full">
-                <section>
-                    <h1>About</h1>
-                </section>
-            </main>
-        </div>
+        <section>
+            <h1>About</h1>
+        </section>
     )
 }
 
