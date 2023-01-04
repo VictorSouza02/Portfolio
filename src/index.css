@@ -15,12 +15,20 @@ body {
 }
 
 @keyframes bg-animation {
-    0%{background-size: 150%;}
-    50%{background-size: 151%;}
-    100%{background-size: 150%;}
+    0% {
+        background-size: 150%;
+    }
+
+    50% {
+        background-size: 151%;
+    }
+
+    100% {
+        background-size: 150%;
+    }
 }
 
-section{
+section {
     width: 100%;
     max-width: 900px;
     display: flex;
@@ -67,4 +75,15 @@ section{
 ::-webkit-scrollbar-thumb {
     background-color: #111827;
     border-radius: 15px;
+}
+
+.about-underline {
+    text-decoration: underline;
+    text-decoration-color: #bf9f4c;
+    text-underline-offset: 2px;
+}
+
+.about-underline:hover {
+    transition: 0.6s ease-in-out;
+    text-decoration-color: #111827;
 }
