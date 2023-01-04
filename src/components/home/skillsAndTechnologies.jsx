@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const SkillsAndTechnologies = () => {
     return (
-        <section>
+        <section className="hidden">
                 <div>
                     <h2>Skills</h2>
 
