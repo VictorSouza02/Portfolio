@@ -10,9 +10,9 @@ const Presentation = () => {
             </div>
 
             <div className="md:order-2 flex flex-col gap-4 md:flex-row md:self-start">
-                <Link className="py-1 px-2 bg-[#5b7493] text-white button-transition hover:bg-inherit hover:text-[#5b7493] border hover:border-[#5b7493] rounded-2xl text-center" to="/projects">More about me</Link>
+                <Link className="py-1 px-2 bg-[#5b7493] text-white button-transition hover:bg-inherit hover:text-[#5b7493] border hover:border-[#5b7493] rounded-2xl text-center" to="/about">More about me</Link>
 
-                <Link className="py-1 px-2 border border-[#5b7493] text-[#5b7493] button-transition hover:bg-[#5b7493] hover:text-white rounded-2xl text-center" to="/about">Projects</Link>
+                <Link className="py-1 px-2 border border-[#5b7493] text-[#5b7493] button-transition hover:bg-[#5b7493] hover:text-white rounded-2xl text-center" to="/projects">Projects</Link>
             </div>
         </section>
     )
