@@ -3,11 +3,13 @@ import aboutPhoto from '../../media/about-picture.jpg'
 const AboutText = () => {
     return (
         <>
+            <h1 className="text-4xl font-black md:self-start">About</h1>
+
             <p className="text-xl">I'm Víctor, a web developer focused on the client side, in other words a <span className='text-3xl font-black text-[#bf9f4c]'>front end developer</span>.</p>
 
             <p className="text-xl">My life as a programmer started in 2019 when I heard about Python. Since then I have fallen more and more in love with this area. I've been doing projects to help with my study, some too ambitious, but I believe that the more difficult the greater the learning.</p>
 
-            <div className='flex flex-row justify-between gap-8 flex-wrap'>
+            <div className='flex flex-row justify-between gap-8 flex-wrap w-full'>
                 <img className="w-[40%] object-contain hidden md:block" src={aboutPhoto} alt="Víctor Photo" />
 
                 <div className='flex flex-col gap-8 md:w-[53%]'>

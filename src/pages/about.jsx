@@ -1,14 +1,12 @@
 import AboutText from '../components/about/aboutText';
-import aboutPhoto from '../media/about-picture.jpg'
+import WorkExperience from '../components/about/workExperience';
 
 const About = () => {
     return (
         <section>
-            <h1 className="text-4xl font-black md:self-start">About</h1>
+            <AboutText />
 
-            <AboutText/>
-
-            <h2 className="text-2xl font-black md:self-start">Work experience</h2>
+            <WorkExperience/>
         </section>
     )
 }
