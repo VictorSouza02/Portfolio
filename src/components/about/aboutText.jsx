@@ -16,7 +16,7 @@ const AboutText = () => {
                     <p className="text-xl">when I started studying CSS I was completely fascinated, out of curiosity I tried to do things I hadn't even learned yet, one of these examples was my clone of the <span><a target="_blank" href="https://victorsouza02.github.io/Steam-Layout/" className='about-underline'>steam layout</a></span>. This layout was made completely without using Display: flex or Grid, only with margins, paddings, what made it a non-responsive page.</p>
                 </div>
 
-                <p className="text-xl">Can you find me on <span><a target="_blank" href="https://www.linkedin.com/in/victorsouza02" className='about-underline'>LinkedIn</a></span>, or you can follow me on <span><a target="_blank" href="https://www.instagram.com/victorsouza.png/" className='about-underline'>Instagram</a></span> where I share a little about my personal life. If you want to see my projects in more detail, follow me on <a target="_blank" href="https://github.com/VictorSouza02" className='about-underline'>GitHub</a>!</p>
+                <p className="text-xl">Can you find me on <span><a target="_blank" href="https://www.linkedin.com/in/victorsouza02" className='about-underline'>LinkedIn</a></span>, or you can follow me on <span><a target="_blank" href="https://www.instagram.com/victorsouza.png/" className='about-underline'>Instagram</a></span> where I share a little about my personal life. If you want to see my projects in more detail, follow me on <span><a target="_blank" href="https://github.com/VictorSouza02" className='about-underline'>GitHub</a></span>!</p>
             </div>
         </>
     )
