@@ -102,3 +102,15 @@ section {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.contact-underline:hover {
+    transition: 0.6s ease-in-out;
+    text-decoration-color: #111827;
+}
+
+@media (min-width: 438px) {
+    .contact-hr{
+        display: none;
+    }
+}
+

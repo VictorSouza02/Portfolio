@@ -20,7 +20,7 @@ const WorkExperience = () => {
 
 
                 <div className='w-full flex flex-col lg:flex-row justify-between gap-8 items-center border border-x-0 border-t-0 border-[#111827ac] pb-8'>
-                <div className='flex flex-col gap-1 min-w-[300px] text-center lg:text-start'>
+                    <div className='flex flex-col gap-1 min-w-[300px] text-center lg:text-start'>
                         <h3 className='text-2xl font-black'>Front end developer &#40;Trainee&#41;</h3>
                         <span className='text-lg font-black text-[#111827cc]'>NURV</span>
                         <span className='text-sm text-[#111827cc]'>09/22 - 12/22</span>
