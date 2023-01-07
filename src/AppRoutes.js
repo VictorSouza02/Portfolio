@@ -10,6 +10,7 @@ import LayoutPT from "./Portuguese layout/layout/layoutPT";
 import Inicio from "./Portuguese layout/pages/inicio";
 import Sobre from "./Portuguese layout/pages/sobre";
 import Projetos from "./Portuguese layout/pages/Projetos";
+import Contato from "./Portuguese layout/pages/contato";
 
 const AppRoutes = () => {
     return (
@@ -26,7 +27,7 @@ const AppRoutes = () => {
                     <Route index element={<Inicio />} />
                     <Route element={<Sobre />} path="sobre" />
                     <Route element={<Projetos />} path="projetos" />
-                    <Route element={<Contact />} path="contact" />
+                    <Route element={<Contato />} path="contato" />
                 </Route>
             </Routes>
         </HashRouter>

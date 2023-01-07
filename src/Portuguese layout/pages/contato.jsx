@@ -1,16 +1,16 @@
-const Contact = () => {
+const Contato = () => {
     return (
         <section>
-            <h1 className="text-4xl font-black md:self-start">Contact</h1>
+            <h1 className="text-4xl font-black md:self-start">Contato</h1>
 
-            <h2 className="text-xl font-black md:self-start">Let's work together?</h2>
+            <h2 className="text-xl font-black md:self-start">Vamos trabalhar juntos?</h2>
 
             <div className='flex flex-col gap-8 w-full'>
                 <div className='w-full flex flex-col lg:flex-row justify-between gap-8 items-center border border-x-0 border-t-0 border-[#111827cc] pb-8'>
                     <div className='flex flex-row gap-1 min-w-[300px] justify-center lg:justify-start items-center w-full'>
                         <img className="w-12 md:w-12 aspect-square"
                             src="https://uxwing.com/wp-content/themes/uxwing/download/communication-chat-call/email-square-icon.svg"
-                            alt="Email icon" />
+                            alt="Email icone" />
 
                         <h3 className='text-2xl font-black'>Email</h3>
                     </div>
@@ -30,7 +30,7 @@ const Contact = () => {
                     <div className='flex flex-row gap-1 min-w-[300px] justify-center lg:justify-start items-center w-full'>
                         <img className="w-12 md:w-12 aspect-square"
                             src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/linkedin-app-icon.svg"
-                            alt="LinkedIn icon" />
+                            alt="LinkedIn icone" />
 
                         <h3 className='text-2xl font-black'>LinkedIn</h3>
                     </div>
@@ -39,7 +39,7 @@ const Contact = () => {
                         <a target="_blank" rel="noreferrer"
                             className="text-xl text-center hover:decoration-solid hover:underline hover:decoration-1 hover:decoration-[#0a66c2]"
                             href="https://www.linkedin.com/in/victorsouza02">
-                            Click here to go to my linkedIn
+                            Clique aqui para ir para o meu LinkedIn
                         </a>
                     </div>
                 </div>
@@ -48,7 +48,7 @@ const Contact = () => {
                     <div className='flex flex-row gap-1 min-w-[300px] justify-center lg:justify-start items-center w-full'>
                         <img className="w-12 md:w-12 aspect-square"
                             src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/wa-whatsapp-icon.svg"
-                            alt="Whatsapp icon" />
+                            alt="Whatsapp icone" />
 
                         <h3 className='text-2xl font-black'>Whatsapp</h3>
                     </div>
@@ -57,7 +57,7 @@ const Contact = () => {
                         <a target="_blank" rel="noreferrer"
                             className="text-xl text-center hover:decoration-solid hover:underline hover:decoration-1 hover:decoration-[#46dc52]"
                             href="https://wa.me/5531992889875">
-                            Click here to go to chat with me on whatsapp
+                            Clique aqui para conversar comigo no Whatsapp
                         </a>
                     </div>
                 </div>
@@ -66,4 +66,4 @@ const Contact = () => {
     )
 }
 
-export default Contact;
+export default Contato;
