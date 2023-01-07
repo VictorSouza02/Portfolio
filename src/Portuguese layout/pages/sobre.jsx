@@ -1,5 +1,5 @@
 import AboutTextPT from '../components/sobre/aboutTextPT';
-import WorkExperiencePT from '../components/sobre/workExperience';
+import WorkExperiencePT from '../components/sobre/workExperiencePT';
 import SkillsPT from '../components/sobre/skillsPT';
 
 
