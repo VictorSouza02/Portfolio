@@ -6,6 +6,10 @@ import About from "./pages/about";
 import Projects from "./pages/projects";
 import Contact from "./pages/contact";
 
+import Inicio from "./Portuguese layout/pages/inicio";
+import LayoutPT from "./Portuguese layout/layout/layoutPT";
+import Sobre from "./Portuguese layout/pages/sobre";
+
 const AppRoutes = () => {
     return (
         <HashRouter>
@@ -15,6 +19,13 @@ const AppRoutes = () => {
                     <Route element={<About />} path="/about" />
                     <Route element={<Projects />} path="/projects" />
                     <Route element={<Contact />} path="/contact" />
+                </Route>
+
+                <Route path='/pt' element={<LayoutPT />}>
+                    <Route index element={<Inicio />} />
+                    <Route element={<Sobre />} path="sobre" />
+                    <Route element={<Projects />} path="projects" />
+                    <Route element={<Contact />} path="contact" />
                 </Route>
             </Routes>
         </HashRouter>
