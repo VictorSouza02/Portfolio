@@ -9,6 +9,7 @@ import Contact from "./pages/contact";
 import Inicio from "./Portuguese layout/pages/inicio";
 import LayoutPT from "./Portuguese layout/layout/layoutPT";
 import Sobre from "./Portuguese layout/pages/sobre";
+import ProjetosPT from "./Portuguese layout/pages/ProjetosPT";
 
 const AppRoutes = () => {
     return (
@@ -24,7 +25,7 @@ const AppRoutes = () => {
                 <Route path='/pt' element={<LayoutPT />}>
                     <Route index element={<Inicio />} />
                     <Route element={<Sobre />} path="sobre" />
-                    <Route element={<Projects />} path="projects" />
+                    <Route element={<ProjetosPT />} path="projetos" />
                     <Route element={<Contact />} path="contact" />
                 </Route>
             </Routes>
