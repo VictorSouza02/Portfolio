@@ -3,7 +3,7 @@ const Contact = () => {
         <section>
             <h1 className="text-4xl font-black md:self-start">Contact</h1>
 
-            <h2 className="text-xl font-black md:self-start w-full">Let's work together?</h2>
+            <h2 className="text-xl font-black md:self-start">Let's work together?</h2>
 
             <div className='flex flex-col gap-8 w-full'>
                 <div className='w-full flex flex-col lg:flex-row justify-between gap-8 items-center border border-x-0 border-t-0 border-[#111827cc] pb-8'>
