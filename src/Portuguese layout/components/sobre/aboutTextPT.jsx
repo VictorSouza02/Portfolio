@@ -1,6 +1,6 @@
 import aboutPhoto from '../../../media/about-picture.jpg'
 
-const AboutText = () => {
+const AboutTextPT = () => {
     return (
         <>
             <h1 className="text-4xl font-black md:self-start">Sobre</h1>
@@ -44,4 +44,4 @@ const AboutText = () => {
     )
 }
 
-export default AboutText;
+export default AboutTextPT;

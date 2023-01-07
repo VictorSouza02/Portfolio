@@ -1,12 +1,12 @@
-import AboutText from '../components/sobre/aboutTextPT';
+import AboutTextPT from '../components/sobre/aboutTextPT';
 import WorkExperiencePT from '../components/sobre/workExperience';
-import SkillsPT from '../components/sobre/skills';
+import SkillsPT from '../components/sobre/skillsPT';
 
 
 const Sobre = () => {
     return (
         <section>
-            <AboutText />
+            <AboutTextPT />
 
             <SkillsPT/>
 
