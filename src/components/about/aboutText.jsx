@@ -11,7 +11,8 @@ const AboutText = () => {
             </p>
 
             <p className="text-xl">My life as a programmer started in 2019 when I heard about Python.
-                Since then I have fallen more and more in love with this area. I've been doing projects to help with my study, some too ambitious,
+                Since then I have fallen more and more in love with this area. I've been doing projects to help with my study,
+                some too ambitious,
                 but I believe that the more difficult the greater the learning.
             </p>
 

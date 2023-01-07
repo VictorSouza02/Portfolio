@@ -13,8 +13,12 @@ const WorkExperience = () => {
 
                     <div className="flex flex-col gap-2">
                         <p className='text-xl'>Development and planning of platforms, meetings with clients and help in the creation of page design.</p>
-                        <p className='text-xl'><span className="text-[#bf9f4c] text-3xl">•</span> Technologies used: React.js, CSS &#40;Tailwind&#41;, JavaScript, Node.js, Figma, Postman, Git and GitHub.</p>
-                        <p className='text-xl'><span className="text-[#bf9f4c] text-3xl">•</span> Always focusing: Good relationship with my team, clean and quality code, agile development.</p>
+                        <p className='text-xl'><span className="text-[#bf9f4c] text-3xl">•</span> Technologies used: React.js, CSS &#40;Tailwind&#41;
+                            , JavaScript, Node.js, Figma, Postman, Git and GitHub.
+                        </p>
+                        <p className='text-xl'><span className="text-[#bf9f4c] text-3xl">•</span> Always focusing: Good relationship with my team
+                            , clean and quality code, agile development.
+                        </p>
                     </div>
                 </div>
 
@@ -28,7 +32,9 @@ const WorkExperience = () => {
 
                     <div className="flex flex-col gap-2">
                         <p className='text-xl'>Help my team to develop platforms creating simpler pages, creating components and applying figma designs</p>
-                        <p className='text-xl'><span className="text-[#bf9f4c] text-3xl">•</span> Technologies used: React.js, CSS &#40;Tailwind&#41;, JavaScript, Figma.</p>
+                        <p className='text-xl'><span className="text-[#bf9f4c] text-3xl">•</span> Technologies used: React.js, CSS &#40;Tailwind&#41;
+                            , JavaScript, Figma.
+                        </p>
                     </div>
                 </div>
             </div>
