@@ -6,10 +6,10 @@ import About from "./pages/about";
 import Projects from "./pages/projects";
 import Contact from "./pages/contact";
 
-import Inicio from "./Portuguese layout/pages/inicio";
 import LayoutPT from "./Portuguese layout/layout/layoutPT";
+import Inicio from "./Portuguese layout/pages/inicio";
 import Sobre from "./Portuguese layout/pages/sobre";
-import ProjetosPT from "./Portuguese layout/pages/ProjetosPT";
+import Projetos from "./Portuguese layout/pages/Projetos";
 
 const AppRoutes = () => {
     return (
@@ -25,7 +25,7 @@ const AppRoutes = () => {
                 <Route path='/pt' element={<LayoutPT />}>
                     <Route index element={<Inicio />} />
                     <Route element={<Sobre />} path="sobre" />
-                    <Route element={<ProjetosPT />} path="projetos" />
+                    <Route element={<Projetos />} path="projetos" />
                     <Route element={<Contact />} path="contact" />
                 </Route>
             </Routes>

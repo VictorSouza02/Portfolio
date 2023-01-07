@@ -1,6 +1,6 @@
 import 'tw-elements';
 
-const ProjetosPT = () => {
+const Projetos = () => {
 
     return (
         <section>
@@ -35,4 +35,4 @@ const ProjetosPT = () => {
     )
 }
 
-export default ProjetosPT;
+export default Projetos;
