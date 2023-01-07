@@ -19,7 +19,7 @@ const AboutTextPT = () => {
                 <img className="w-[40%] object-contain hidden md:block" src={aboutPhoto} alt="Víctor" />
 
                 <div className='flex flex-col gap-8 md:w-[53%]'>
-                    <p className="text-xl">quando comecei a estudar CSS fiquei completamente fascinado, por
+                    <p className="text-xl">Quando comecei a estudar CSS fiquei completamente fascinado, por
                         curiosidade tentei fazer coisas que ainda nem havia aprendido, um desses exemplos foi meu clone do
                         <span> <a target="_blank" rel="noreferrer"
                             href="https://victorsouza02.github.io/Steam-Layout/"

@@ -6,11 +6,11 @@ import About from "./pages/about";
 import Projects from "./pages/projects";
 import Contact from "./pages/contact";
 
-import LayoutPT from "./Portuguese layout/layout/layoutPT";
-import Inicio from "./Portuguese layout/pages/inicio";
-import Sobre from "./Portuguese layout/pages/sobre";
-import Projetos from "./Portuguese layout/pages/Projetos";
-import Contato from "./Portuguese layout/pages/contato";
+import LayoutPT from "./PortugueseLayout/layout/layoutPT";
+import Inicio from "./PortugueseLayout/pages/inicio";
+import Sobre from "./PortugueseLayout/pages/sobre";
+import Projetos from "./PortugueseLayout/pages/Projetos";
+import Contato from "./PortugueseLayout/pages/contato";
 
 const AppRoutes = () => {
     return (
