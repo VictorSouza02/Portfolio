@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, BrowserRouter, Routes } from "react-router-dom";
+import { Route, Routes, HashRouter } from "react-router-dom";
 import Layout from "./layout/layout";
 import Home from "./pages/home";
 import About from "./pages/about";
@@ -8,7 +8,7 @@ import Contact from "./pages/contact";
 
 const AppRoutes = () => {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
                 <Route path='/' element={<Layout />}>
                     <Route index element={<Home />} />
@@ -17,7 +17,7 @@ const AppRoutes = () => {
                     <Route element={<Contact />} path="/contact" />
                 </Route>
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 
