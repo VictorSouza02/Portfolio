@@ -10,9 +10,9 @@ const PresentationPT = () => {
                     alt="Victor"
                 />
 
-                <p className="text-4xl sm:text-5xl text-center md:text-start max-w-[625px] w-full">
+                <p className="text-3xl sm:text-5xl text-center md:text-start max-w-[625px] w-full">
                     Olá! eu sou
-                    <span className="text-[#5b7493] font-black"> Víctor</span>, um desenvolvedor Front-end.
+                    <span className="text-[#5b7493] text-center font-black"> Víctor</span>, um desenvolvedor Front-end.
                 </p>
             </div>
 
