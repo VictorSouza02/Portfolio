@@ -88,6 +88,12 @@ section {
     text-decoration-color: #111827;
 }
 
+.project-card-container{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .project-card-container:hover .project-description{
     display: flex;
 }
@@ -98,9 +104,6 @@ section {
 
 #project-coming{
     background-image: url(./media/coming-soon.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .contact-underline:hover {
@@ -114,3 +117,9 @@ section {
     }
 }
 
+/* Projects backgrounds */
+
+
+#project-beatedGames{
+    background-image: url(./media/ProjectsBackgrounds/beatedGames.png);
+}
