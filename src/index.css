@@ -120,6 +120,10 @@ section {
 /* Projects backgrounds */
 
 
-#project-beatedGames{
+#projectBeatedGames{
     background-image: url(./media/ProjectsBackgrounds/beatedGames.png);
+}
+
+#projectPokedex{
+    background-image: url(./media/ProjectsBackgrounds/pokedex.png);
 }
