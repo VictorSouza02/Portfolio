@@ -1,14 +1,17 @@
 import { Link } from "react-router-dom";
+import mainPhoto from '../../media/main-picture.jpg'
 
 const Presentation = () => {
     return (
         <section>
             <div className="w-full flex flex-col items-center justify-center md:flex-row md:justify-between gap-4">
-                <img
-                    className="md:order-2 rounded-full max-w-[175px]"
-                    src="https://media.licdn.com/dms/image/D4D03AQFKLHUKHJq17A/profile-displayphoto-shrink_200_200/0/1664487349109?e=1678320000&v=beta&t=14K8u1ILdSP7mwsTKdGb1J1eJk8TRRf0H43K7FfQPx8"
-                    alt="Victor"
-                />
+                <div className="md:order-2 rounded-full max-w-[250px] overflow-hidden">
+                    <img
+                        className="object-cover aspect-square w-full"
+                        src={mainPhoto}
+                        alt="Victor"
+                    />
+                </div>
 
                 <p className="text-3xl sm:text-5xl text-center md:text-start max-w-[625px] w-full">
                     I'm
