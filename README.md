@@ -7,3 +7,6 @@
  start local project: npm start
 
  push changes to github pages: npm run deploy
+
+ (In case of problems with deploy)
+ change the deploy script to: "deploy": "gh-pages-clean gh-pages -d build"
