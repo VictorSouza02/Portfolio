@@ -37,15 +37,17 @@ const RecentProjects = () => {
                 </a>
 
                 <a
-                    href="#"
-                    id='project-coming'
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://victorsouza02.github.io/Bhaskara-React/#/"
+                    id='projectBhaskara'
                     className="bg-white project-card-container w-[100%] aspect-[1/1.3] shadow-lg 
-                    rounded-2xl flex flex-col justify-end overflow-hidden"
+                rounded-2xl flex flex-col justify-end overflow-hidden"
                 >
-                    <div className="order-2 project-description w-full bg-[rgba(177,177,177,0.8)] 
-                    p-2 flex-col items-center md:items-start">
-                        <h3 className='text-base font-black'>Coming soon</h3>
-                        <span className='text-sm text-[#111827cc]'>xx/xx/xx</span>
+                    <div className="order-2 project-description w-full bg-[rgba(177,177,177,0.8)] p-2 
+                    flex-col items-center md:items-start">
+                        <h3 className='text-base font-black'>Calculator²</h3>
+                        <span className='text-sm text-[#111827cc]'>03/24/23</span>
                     </div>
                 </a>
             </div>

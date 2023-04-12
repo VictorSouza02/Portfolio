@@ -37,12 +37,17 @@ const recentProjectsPT = () => {
                 </a>
 
                 <a
-
-                    id='project-coming'
-                    className="bg-white project-card-container w-[100%] aspect-[1/1.3] shadow-lg rounded-2xl flex flex-col justify-end overflow-hidden">
-                    <div className="order-2 project-description w-full bg-[rgba(177,177,177,0.8)] p-2 flex-col items-center md:items-start">
-                        <h3 className='text-base font-black'>Em breve</h3>
-                        <span className='text-sm text-[#111827cc]'>xx/xx/xx</span>
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://victorsouza02.github.io/Bhaskara-React/#/"
+                    id='projectBhaskara'
+                    className="bg-white project-card-container w-[100%] aspect-[1/1.3] shadow-lg 
+                rounded-2xl flex flex-col justify-end overflow-hidden"
+                >
+                    <div className="order-2 project-description w-full bg-[rgba(177,177,177,0.8)] p-2 
+                    flex-col items-center md:items-start">
+                        <h3 className='text-base font-black'>Calculatora²</h3>
+                        <span className='text-sm text-[#111827cc]'>24/03/23</span>
                     </div>
                 </a>
             </div>
