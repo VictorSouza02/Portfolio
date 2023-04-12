@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.ace67212.css",
-    "main.js": "/Portfolio/static/js/main.3fba863d.js",
+    "main.css": "/Portfolio/static/css/main.ba6ce026.css",
+    "main.js": "/Portfolio/static/js/main.1f69ddf9.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/beatedGames.png": "/Portfolio/static/media/beatedGames.3530b8f2f96fa491544f.png",
     "static/media/about-picture.jpg": "/Portfolio/static/media/about-picture.a255d7d48488775088c4.jpg",
     "static/media/main-picture.jpg": "/Portfolio/static/media/main-picture.8df13e0978cbb5a0d7da.jpg",
     "static/media/pokedex.png": "/Portfolio/static/media/pokedex.bd4d4074ea4f87fc5e04.png",
+    "static/media/bhaskara.png": "/Portfolio/static/media/bhaskara.f8a3bde73c269c3a1958.png",
     "static/media/coming-soon.jpg": "/Portfolio/static/media/coming-soon.864551868610f9d024d4.jpg",
     "static/media/bg.svg": "/Portfolio/static/media/bg.d1455c13e40d477feada.svg",
     "index.html": "/Portfolio/index.html",
-    "main.ace67212.css.map": "/Portfolio/static/css/main.ace67212.css.map",
-    "main.3fba863d.js.map": "/Portfolio/static/js/main.3fba863d.js.map",
+    "main.ba6ce026.css.map": "/Portfolio/static/css/main.ba6ce026.css.map",
+    "main.1f69ddf9.js.map": "/Portfolio/static/js/main.1f69ddf9.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ace67212.css",
-    "static/js/main.3fba863d.js"
+    "static/css/main.ba6ce026.css",
+    "static/js/main.1f69ddf9.js"
   ]
 }
