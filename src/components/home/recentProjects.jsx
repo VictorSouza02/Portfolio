@@ -5,14 +5,16 @@ const RecentProjects = () => {
         <section>
             <h2 className="text-3xl text-center sm:text-start md:self-start">Recent Projects</h2>
 
-            <div className="grid grid-cols-1 gap-8 md:gap-6 md:grid-cols-3 w-full">
+            <div className="flex gap-8 w-full">
                 <a
                     target="_blank"
                     rel="noreferrer"
                     href="https://victorsouza02.github.io/Beated-Games/"
                     id='projectBeatedGames'
-                    className="bg-white project-card-container w-[100%] aspect-[1/1.3] shadow-lg 
-                rounded-2xl flex flex-col justify-end overflow-hidden"
+                    className="
+                        bg-white project-card-container w-full max-w-[200px] aspect-[1/1.3] shadow-lg 
+                        rounded-2xl flex flex-col justify-end overflow-hidden
+                    "
                 >
                     <div className="order-2 project-description w-full bg-[rgba(177,177,177,0.8)] p-2 
                     flex-col items-center md:items-start">
@@ -26,8 +28,10 @@ const RecentProjects = () => {
                     rel="noreferrer"
                     href="https://victorsouza02.github.io/Pokedex-com-API/"
                     id='projectPokedex'
-                    className="bg-white project-card-container w-[100%] aspect-[1/1.3] shadow-lg 
-                rounded-2xl flex flex-col justify-end overflow-hidden"
+                    className="
+                        bg-white project-card-container w-full max-w-[200px] aspect-[1/1.3] shadow-lg 
+                        rounded-2xl flex flex-col justify-end overflow-hidden
+                    "
                 >
                     <div className="order-2 project-description w-full bg-[rgba(177,177,177,0.8)] p-2 
                     flex-col items-center md:items-start">
@@ -41,8 +45,10 @@ const RecentProjects = () => {
                     rel="noreferrer"
                     href="https://victorsouza02.github.io/Bhaskara-React/#/"
                     id='projectBhaskara'
-                    className="bg-white project-card-container w-[100%] aspect-[1/1.3] shadow-lg 
-                rounded-2xl flex flex-col justify-end overflow-hidden"
+                    className="
+                        bg-white project-card-container w-full max-w-[200px] aspect-[1/1.3] shadow-lg 
+                        rounded-2xl flex flex-col justify-end overflow-hidden
+                    "
                 >
                     <div className="order-2 project-description w-full bg-[rgba(177,177,177,0.8)] p-2 
                     flex-col items-center md:items-start">

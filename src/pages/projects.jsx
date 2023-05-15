@@ -20,17 +20,24 @@ const Projects = () => {
             </div>
 
 
-            <div className="grid grid-cols-1 gap-8 md:gap-6 md:grid-cols-3 lg:grid-cols-4 w-full">
+            <div className="flex flex-row-reverse items-center justify-center flex-wrap-reverse gap-8 md:gap-6 w-full">
                 <a
                     target="_blank"
                     rel="noreferrer"
                     href="https://victorsouza02.github.io/Beated-Games/"
                     id='projectBeatedGames'
-                    className="bg-white project-card-container w-[100%] aspect-[1/1.3] shadow-lg 
-                rounded-2xl flex flex-col justify-end overflow-hidden"
+                    className="
+                        bg-white project-card-container w-full max-w-[200px] aspect-[1/1.3] shadow-lg 
+                        rounded-2xl flex flex-col justify-end overflow-hidden
+                    "
                 >
-                    <div className="order-2 project-description w-full bg-[rgba(177,177,177,0.8)] p-2 
-                    flex-col items-center md:items-start">
+                    <div
+                        className="
+                            order-2 project-description w-full bg-[rgba(177,177,177,0.8)] p-2 
+                            flex-col items-center 
+                            md:items-start
+                        "
+                    >
                         <h3 className='text-base font-semibold'>Beated Games</h3>
                         <span className='text-sm text-[#111827cc]'>01/08/23</span>
                     </div>
@@ -41,11 +48,18 @@ const Projects = () => {
                     rel="noreferrer"
                     href="https://victorsouza02.github.io/Pokedex-com-API/"
                     id='projectPokedex'
-                    className="bg-white project-card-container w-[100%] aspect-[1/1.3] shadow-lg 
-                rounded-2xl flex flex-col justify-end overflow-hidden"
+                    className="
+                        bg-white project-card-container w-full max-w-[200px] aspect-[1/1.3] shadow-lg 
+                        rounded-2xl flex flex-col justify-end overflow-hidden
+                    "
                 >
-                    <div className="order-2 project-description w-full bg-[rgba(177,177,177,0.8)] p-2 
-                    flex-col items-center md:items-start">
+                    <div
+                        className="
+                            order-2 project-description w-full bg-[rgba(177,177,177,0.8)] p-2 
+                            flex-col items-center 
+                            md:items-start
+                        "
+                    >
                         <h3 className='text-base font-semibold'>Pokedex</h3>
                         <span className='text-sm text-[#111827cc]'>01/20/23</span>
                     </div>
@@ -56,11 +70,18 @@ const Projects = () => {
                     rel="noreferrer"
                     href="https://victorsouza02.github.io/Bhaskara-React/#/"
                     id='projectBhaskara'
-                    className="bg-white project-card-container w-[100%] aspect-[1/1.3] shadow-lg 
-                rounded-2xl flex flex-col justify-end overflow-hidden"
+                    className="
+                        bg-white project-card-container w-full max-w-[200px] aspect-[1/1.3] shadow-lg 
+                        rounded-2xl flex flex-col justify-end overflow-hidden
+                    "
                 >
-                    <div className="order-2 project-description w-full bg-[rgba(177,177,177,0.8)] p-2 
-                    flex-col items-center md:items-start">
+                    <div
+                        className="
+                            order-2 project-description w-full bg-[rgba(177,177,177,0.8)] p-2 
+                            flex-col items-center 
+                            md:items-start
+                        "
+                    >
                         <h3 className='text-base font-semibold'>Calculator²</h3>
                         <span className='text-sm text-[#111827cc]'>03/24/23</span>
                     </div>
