@@ -13,15 +13,21 @@ const Header = () => {
         <header className="w-full">
             <nav className="relative w-full flex py-4 navbar navbar-expand-md">
                 <div className="container-fluid w-full flex flex-wrap items-center justify-end">
-                    <button className="navbar-toggler justify-self-start text-gray-500 border-0 hover:shadow-none hover:no-underline py-2 
-                    px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline "
-                        type="button"
-                        data-bs-toggle="collapse" data-bs-target="#headerNavBar" aria-controls="navbarSupportedContent" 
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <img className="w-6"
-                            src="https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/three-horizontal-lines-outline-icon.svg"
-                            alt="Menu button" />
-                    </button>
+                    <div
+                        className="
+                            navbar-toggler justify-self-start text-gray-500 border-0 hover:shadow-none hover:no-underline py-2 
+                            px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline
+                        "
+                        data-bs-toggle="collapse"
+                        data-bs-target="#headerNavBar"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#111827" viewBox="0 0 16 16">
+                            <path fillRule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                        </svg>
+                    </div>
 
                     <div
                         className="collapse navbar-collapse flex-grow items-center bg-gray-100 max-md:absolute max-md:top-12 max-md:left-[50%] 
