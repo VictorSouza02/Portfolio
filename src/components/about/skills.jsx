@@ -31,7 +31,7 @@ const Skills = () => {
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"
                     alt="Next.Js icon" />
 
-                <img className="w-12 md:w-20 aspect-square cursor-help"
+                <img className="w-20 md:w-32 aspect-square cursor-help"
                     data-bs-toggle="tooltip" title="Tailwind"
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"
                     alt="Tailwind icon" />
