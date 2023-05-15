@@ -5,7 +5,7 @@ const recentProjectsPT = () => {
         <section>
             <h2 className="text-3xl text-center sm:text-start md:self-start">Projetos Recentes</h2>
 
-            <div className="flex gap-8 w-full">
+            <div className="flex flex-row-reverse justify-end gap-8 w-full">
                 <a
                     target="_blank"
                     rel="noreferrer"
