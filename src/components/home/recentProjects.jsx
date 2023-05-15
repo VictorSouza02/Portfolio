@@ -16,7 +16,7 @@ const RecentProjects = () => {
                 >
                     <div className="order-2 project-description w-full bg-[rgba(177,177,177,0.8)] p-2 
                     flex-col items-center md:items-start">
-                        <h3 className='text-base font-black'>Beated Games</h3>
+                        <h3 className='text-base font-semibold'>Beated Games</h3>
                         <span className='text-sm text-[#111827cc]'>01/08/23</span>
                     </div>
                 </a>
@@ -31,7 +31,7 @@ const RecentProjects = () => {
                 >
                     <div className="order-2 project-description w-full bg-[rgba(177,177,177,0.8)] p-2 
                     flex-col items-center md:items-start">
-                        <h3 className='text-base font-black'>Pokedex</h3>
+                        <h3 className='text-base font-semibold'>Pokedex</h3>
                         <span className='text-sm text-[#111827cc]'>01/20/23</span>
                     </div>
                 </a>
@@ -46,7 +46,7 @@ const RecentProjects = () => {
                 >
                     <div className="order-2 project-description w-full bg-[rgba(177,177,177,0.8)] p-2 
                     flex-col items-center md:items-start">
-                        <h3 className='text-base font-black'>Calculator²</h3>
+                        <h3 className='text-base font-semibold'>Calculator²</h3>
                         <span className='text-sm text-[#111827cc]'>03/24/23</span>
                     </div>
                 </a>

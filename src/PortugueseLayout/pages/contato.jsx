@@ -1,9 +1,9 @@
 const Contato = () => {
     return (
         <section>
-            <h1 className="text-4xl font-black md:self-start">Contato</h1>
+            <h1 className="text-4xl font-semibold md:self-start">Contato</h1>
 
-            <h2 className="text-xl font-black md:self-start">Vamos trabalhar juntos?</h2>
+            <h2 className="text-xl font-semibold md:self-start">Vamos trabalhar juntos?</h2>
 
             <div className='flex flex-col gap-8 w-full'>
                 <div className='w-full flex flex-col lg:flex-row justify-between gap-8 items-center border border-x-0 border-t-0 border-[#111827cc] pb-8'>
@@ -14,7 +14,7 @@ const Contato = () => {
                             </svg>
                         </div>
 
-                        <h3 className='text-2xl font-black'>Email</h3>
+                        <h3 className='text-2xl font-semibold'>Email</h3>
                     </div>
 
                     <div className="flex flex-col gap-2">
@@ -36,7 +36,7 @@ const Contato = () => {
                             </svg>
                         </div>
 
-                        <h3 className='text-2xl font-black'>LinkedIn</h3>
+                        <h3 className='text-2xl font-semibold'>LinkedIn</h3>
                     </div>
 
                     <div className="flex flex-col gap-2">
@@ -56,7 +56,7 @@ const Contato = () => {
                             </svg>
                         </div>
 
-                        <h3 className='text-2xl font-black'>Whatsapp</h3>
+                        <h3 className='text-2xl font-semibold'>Whatsapp</h3>
                     </div>
 
                     <div className="flex flex-col gap-2">

@@ -3,7 +3,7 @@ import 'tw-elements';
 const SkillsPT = () => {
     return (
         <>
-            <h2 className="text-2xl font-black md:self-start">Habilidades</h2>
+            <h2 className="text-2xl font-semibold md:self-start">Habilidades</h2>
 
             <div className='flex flex-row justify-center flex-wrap gap-8 w-full'>
                 <img className="w-12 md:w-20 aspect-square cursor-help"

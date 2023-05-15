@@ -35,7 +35,7 @@ const Header = () => {
                         id="headerNavBar">
                         <ul
                             className="navbar-nav flex flex-col list-style-none w-full justify-center items-center gap-2 
-                        lg:gap-10 text-[#111827b3] text-lg font-bold">
+                        lg:gap-10 text-[#111827b3] text-lg font-semibold">
                             <li className="nav-item p-2">
                                 <Link
                                     className={`${homeRoute === pathname

@@ -15,7 +15,7 @@ const Presentation = () => {
 
                 <p className="text-3xl sm:text-5xl text-center md:text-start max-w-[625px] w-full">
                     I'm
-                    <span className="text-[#5b7493] font-black"> Víctor</span>
+                    <span className="text-[#5b7493] font-semibold"> Víctor</span>
                     . I'm a Front-end developer.
                 </p>
             </div>

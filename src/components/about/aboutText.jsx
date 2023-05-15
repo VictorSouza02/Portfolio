@@ -3,11 +3,11 @@ import aboutPhoto from '../../media/about-picture.jpg'
 const AboutText = () => {
     return (
         <>
-            <h1 className="text-4xl font-black md:self-start">About</h1>
+            <h1 className="text-4xl font-semibold md:self-start">About</h1>
 
             <p className="text-xl">
                 I'm Víctor, a web developer focused on the client side, in other words a
-                <span className='text-3xl font-black text-[#bf9f4c]'> front end developer</span>.
+                <span className='text-3xl font-semibold text-[#bf9f4c]'> front end developer</span>.
             </p>
 
             <p className="text-xl">My life as a programmer started in 2019 when I heard about Python.
