@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import EuaFlag from "../../media/icons/united-states-flag-icon.svg"
+import BrazilFlag from "../../media/icons/brazil-flag-icon.svg"
 
 const SelectLanguage = () => {
     return (
@@ -6,15 +8,15 @@ const SelectLanguage = () => {
             <div className="flex gap-8">
                 <Link to="/">
                     <img className="w-8 md:w-12 aspect-square"
-                        src="https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/united-states-flag-icon.svg"
-                        alt="United States icon"
+                        src={EuaFlag}
+                        alt="United States Flag"
                     />
                 </Link>
 
                 <Link to="/pt">
                     <img className="w-8 md:w-12 aspect-square"
-                        src="https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/brazil-flag-icon.svg"
-                        alt="Brazil icon"
+                        src={BrazilFlag}
+                        alt="Brazil Flag"
                     />
                 </Link>
             </div>

@@ -24,7 +24,7 @@ const PresentationPT = () => {
                     className="py-1 px-2 bg-[#5b7493] text-white button-transition hover:bg-inherit 
                 hover:text-[#5b7493] border hover:border-[#5b7493] rounded-2xl text-center"
                     to="sobre">
-                    Mais sobre mim
+                    Sobre mim
                 </Link>
 
                 <Link
