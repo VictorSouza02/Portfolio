@@ -7,36 +7,44 @@ const recentProjectsPT = () => {
 
             <div className="flex flex-row-reverse justify-end gap-8 w-full">
                 <a
-                    target="_blank"
                     rel="noreferrer"
-                    href="https://victorsouza02.github.io/Beated-Games/"
-                    id='projectBeatedGames'
+                    href="/"
+                    id='project-coming'
                     className="
                         bg-white project-card-container w-full max-w-[200px] aspect-[1/1.3] shadow-lg 
                         rounded-2xl flex flex-col justify-end overflow-hidden
                     "
                 >
-                    <div className="order-2 project-description w-full bg-[rgba(177,177,177,0.8)] p-2 
-                    flex-col items-center md:items-start">
-                        <h3 className='text-base font-semibold'>Beated Games</h3>
-                        <span className='text-sm text-[#111827cc]'>08/01/23</span>
+                    <div
+                        className="
+                            order-2 project-description w-full bg-[rgba(177,177,177,0.8)] p-2 
+                            flex-col items-center 
+                            md:items-start
+                        "
+                    >
+                        <h3 className='text-base font-semibold'>Em breve</h3>
+                        <span className='text-sm text-[#111827cc]'>00/00/00</span>
                     </div>
                 </a>
 
                 <a
-                    target="_blank"
                     rel="noreferrer"
-                    href="https://victorsouza02.github.io/Pokedex-com-API/"
-                    id='projectPokedex'
+                    href="/"
+                    id='project-coming'
                     className="
                         bg-white project-card-container w-full max-w-[200px] aspect-[1/1.3] shadow-lg 
                         rounded-2xl flex flex-col justify-end overflow-hidden
                     "
                 >
-                    <div className="order-2 project-description w-full bg-[rgba(177,177,177,0.8)] p-2 
-                    flex-col items-center md:items-start">
-                        <h3 className='text-base font-semibold'>Pokedex</h3>
-                        <span className='text-sm text-[#111827cc]'>20/01/23</span>
+                    <div
+                        className="
+                            order-2 project-description w-full bg-[rgba(177,177,177,0.8)] p-2 
+                            flex-col items-center 
+                            md:items-start
+                        "
+                    >
+                        <h3 className='text-base font-semibold'>Em breve</h3>
+                        <span className='text-sm text-[#111827cc]'>00/00/00</span>
                     </div>
                 </a>
 
@@ -45,6 +53,7 @@ const recentProjectsPT = () => {
                     rel="noreferrer"
                     href="https://victorsouza02.github.io/Bhaskara-React/#/"
                     id='projectBhaskara'
+                    aria-label="Ver projeto Calculadora"
                     className="
                         bg-white project-card-container w-full max-w-[200px] aspect-[1/1.3] shadow-lg 
                         rounded-2xl flex flex-col justify-end overflow-hidden
