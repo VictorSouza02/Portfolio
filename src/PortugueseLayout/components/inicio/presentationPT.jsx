@@ -5,7 +5,7 @@ const PresentationPT = () => {
     return (
         <section>
             <div className="w-full flex flex-col items-center justify-center md:flex-row md:justify-between gap-4">
-                <div className="md:order-2 rounded-full max-w-[250px] overflow-hidden">
+                <div className="md:order-2 rounded-full max-w-[150px] overflow-hidden md:max-w-[250px]">
                     <img
                         className="object-cover aspect-square w-full"
                         src={mainPhoto}
