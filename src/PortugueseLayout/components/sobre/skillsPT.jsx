@@ -50,11 +50,6 @@ const SkillsPT = () => {
                     data-bs-toggle="tooltip" title="Figma"
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
                     alt="Figma icone" />
-
-                <img className="w-12 md:w-20 aspect-square cursor-help"
-                    data-bs-toggle="tooltip" title="Postman"
-                    src="https://img.uxwing.com/wp-content/themes/uxwing/download/brands-social-media/postman-icon.svg"
-                    alt="Postman icone" />
             </div>
 
         </>

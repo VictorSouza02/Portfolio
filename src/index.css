@@ -118,16 +118,10 @@ section {
 }
 
 /* Projects backgrounds */
-
-
-#projectBeatedGames{
-    background-image: url(./media/ProjectsBackgrounds/beatedGames.png);
-}
-
-#projectPokedex{
-    background-image: url(./media/ProjectsBackgrounds/pokedex.png);
-}
-
 #projectBhaskara{
     background-image: url(./media/ProjectsBackgrounds/bhaskara.png);
+}
+
+#projectFrancaVet{
+    background-image: url(./media/ProjectsBackgrounds/FrancaVet.png);
 }
