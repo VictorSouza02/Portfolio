@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import aboutPhoto from '../../../media/about-picture.jpg'
 
 const AboutTextPT = () => {
@@ -6,12 +7,13 @@ const AboutTextPT = () => {
             <h1 className="text-4xl font-semibold md:self-start">Sobre</h1>
 
             <p className="text-xl">
-                Eu sou Víctor, um desenvolvedor web focado no client side, em outras palavras um
-                <span className='text-3xl font-semibold text-[#bf9f4c]'> desenvolvedor front end</span>.
+                Olá! Sou Víctor Souza, um <b className='text-[#bf9f4c]'>desenvolvedor front end</b>.
+                Estou sempre em busca de novos desafios e oportunidades para aprimorar minhas habilidades e expandir meu conhecimento.
             </p>
 
-            <p className="text-xl">Minha vida como programador começou em 2019 quando ouvi falar sobre Python
-                . Desde então tenho me apaixonado cada vez mais por essa área. Tenho feito projetos para ajudar no meu
+            <p className="text-xl">
+                Minha vida como programador começou em 2019 quando ouvi falar sobre Python.
+                Desde então tenho me apaixonado cada vez mais por essa área. Tenho feito projetos para ajudar no meu
                 estudo, alguns ambiciosos demais, mas acredito que quanto mais difícil maior o aprendizado.
             </p>
 
@@ -26,12 +28,34 @@ const AboutTextPT = () => {
                             className='about-underline'>Layout Steam
                         </a>
                         </span>
-                        . Este layout foi feito totalmente sem usar Display: flex ou Grid, apenas com margins, paddings, 
+                        . Este layout foi feito totalmente sem usar Display: flex ou Grid, apenas com margins, paddings,
                         tornando o projeto nada responsivo.
+                    </p>
+
+                    <p className="text-xl">
+                        Sou uma pessoa curiosa que gosta de enfrentar problemas técnicos e encontrar soluções inovadoras.
+                        Eu tenho um olhar atento para detalhes, garantindo a qualidade do código e otimização de desempenho.
+                        Além disso, estou sempre disposto a aprender com meus colegas e compartilhar meu
+                        conhecimento com a comunidade de desenvolvedores.
                     </p>
                 </div>
 
-                <p className="text-xl">Você pode me encontar no
+                <p className="text-xl">
+                    Estou procurando oportunidades emocionantes e desafiadoras para aplicar
+                    minhas habilidades e contribuir para projetos que tenham um impacto positivo.
+                    Se você está procurando um desenvolvedor front-end dedicado,
+                    motivado e apaixonado pelo que faz, eu estarei feliz em fazer parte de sua equipe!
+                    Sinta-se à vontade para entrar em
+                    <Link
+                        to='/pt/contato'
+                        className='ml-1 about-underline'
+                    >
+                        contato
+                    </Link>
+                </p>
+
+                <p className="text-xl">
+                    Você pode me encontar no
                     <span> <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/victorsouza02" className='about-underline'>LinkedIn</a></span>
                     , ou pode me seguir no
                     <span> <a target="_blank" rel="noreferrer" href="https://www.instagram.com/victorsouza.png/" className='about-underline'>
