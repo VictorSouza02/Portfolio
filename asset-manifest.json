@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.e4008aef.css",
-    "main.js": "/Portfolio/static/js/main.229aa2a7.js",
+    "main.css": "/Portfolio/static/css/main.f2209aed.css",
+    "main.js": "/Portfolio/static/js/main.a65b2ed1.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/beatedGames.png": "/Portfolio/static/media/beatedGames.3530b8f2f96fa491544f.png",
     "static/media/about-picture.jpg": "/Portfolio/static/media/about-picture.a255d7d48488775088c4.jpg",
     "static/media/main-picture.jpg": "/Portfolio/static/media/main-picture.8df13e0978cbb5a0d7da.jpg",
-    "static/media/pokedex.png": "/Portfolio/static/media/pokedex.bd4d4074ea4f87fc5e04.png",
+    "static/media/FrancaVet.png": "/Portfolio/static/media/FrancaVet.752542f6579a66503ace.png",
     "static/media/bhaskara.png": "/Portfolio/static/media/bhaskara.f8a3bde73c269c3a1958.png",
     "static/media/brazil-flag-icon.svg": "/Portfolio/static/media/brazil-flag-icon.dd2dd21d0015bb8443ba2217a198d7bf.svg",
     "static/media/coming-soon.jpg": "/Portfolio/static/media/coming-soon.864551868610f9d024d4.jpg",
     "static/media/united-states-flag-icon.svg": "/Portfolio/static/media/united-states-flag-icon.6bfa3fc5dead5ace487f6cc7b35e269b.svg",
     "static/media/bg.svg": "/Portfolio/static/media/bg.d1455c13e40d477feada.svg",
     "index.html": "/Portfolio/index.html",
-    "main.e4008aef.css.map": "/Portfolio/static/css/main.e4008aef.css.map",
-    "main.229aa2a7.js.map": "/Portfolio/static/js/main.229aa2a7.js.map",
+    "main.f2209aed.css.map": "/Portfolio/static/css/main.f2209aed.css.map",
+    "main.a65b2ed1.js.map": "/Portfolio/static/js/main.a65b2ed1.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4008aef.css",
-    "static/js/main.229aa2a7.js"
+    "static/css/main.f2209aed.css",
+    "static/js/main.a65b2ed1.js"
   ]
 }
